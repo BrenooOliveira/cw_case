@@ -1,0 +1,48 @@
+{
+  "Result": [{
+    "BasicData": {
+      "Age": 29,
+      "Name": "SARAH JOHNSON SILVA",
+      "Gender": "F",
+      "TaxIdNumber": "12345678901",
+      "TaxIdStatus": "REGULAR",
+      "BirthCountry": "BRASILEIRA",
+      "MaritalStatusData": {
+        "MaritalStatus": "CASADO(A)"
+      },
+      "TaxIdFiscalRegion": "MG"
+    },
+    "KycData": {
+      "IsCurrentlyPEP": false,
+      "IsCurrentlySanctioned": false,
+      "Last365DaysSanctions": 0,
+      "Last90DaysSanctions": 0,
+      "LastYearPEPOccurence": 0,
+      "IsCurrentlyElectoralDonor": false,
+      "TotalElectoralDonations": 0
+    },
+    "FinancialData": {
+      "TotalAssets": "ABAIXO DE 100K",
+      "IncomeEstimates": {
+        "BIGDATA_V2": "2 A 3 SM"
+      },
+      "TaxReturns": [
+        {"Year": "2022", "Status": "ENVIADA PARA CREDITO NO BANCO"},
+        {"Year": "2023", "Status": "ENVIADA PARA CREDITO NO BANCO"},
+        {"Year": "2024", "Status": "IMPOSTO A PAGAR"}
+      ]
+    },
+    "RelatedPeople": {
+      "TotalSpouses": 1,
+      "TotalRelatives": 7,
+      "PersonalRelationships": [
+        {"RelationshipType": "SPOUSE", "RelatedEntityName": "MICHAEL THOMPSON COSTA"},
+        {"RelationshipType": "MOTHER", "RelatedEntityName": "PATRICIA JOHNSON SILVA"}
+      ]
+    },
+    "Processes": {
+      "TotalLawsuits": 1,
+      "LastLawsuitDate": "2022-08-03T00:00:00"
+    }
+  }]
+}

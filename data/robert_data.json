@@ -1,0 +1,62 @@
+{
+  "Result": [{
+    "BasicData": {
+      "Age": 64,
+      "Name": "ROBERT DAVIS LIMA",
+      "Gender": "M",
+      "TaxIdNumber": "34567890123",
+      "TaxIdStatus": "REGULAR",
+      "BirthCountry": "BRASILEIRA",
+      "MaritalStatusData": {},
+      "TaxIdFiscalRegion": "MG"
+    },
+    "KycData": {
+      "IsCurrentlyPEP": false,
+      "IsCurrentlySanctioned": false,
+      "Last365DaysSanctions": 0,
+      "Last90DaysSanctions": 0,
+      "Last180DaysSanctions": 0,
+      "LastYearPEPOccurence": 0,
+      "IsCurrentlyElectoralDonor": true,
+      "TotalElectoralDonations": 1,
+      "TotalElectoralDonationAmount": 1,
+      "ElectoralDonations": {
+        "2022": {"AmountDonated": 1, "DonationsCount": 1}
+      }
+    },
+    "FinancialData": {
+      "TotalAssets": "ABAIXO DE 100K",
+      "IncomeEstimates": {
+        "BIGDATA_V2": "3 A 5 SM",
+        "MTE": "2 A 4 SM",
+        "IBGE": "2 A 4 SM"
+      },
+      "TaxReturns": [
+        {"Year": "2014", "Status": "IMPOSTO A PAGAR, SEM OPCAO POR DEBITO AUTOMATICO"},
+        {"Year": "2015", "Status": "IMPOSTO A PAGAR, SEM OPCAO POR DEBITO AUTOMATICO"},
+        {"Year": "2018", "Status": "CREDITADA", "Bank": "BANCO DO BRASIL"},
+        {"Year": "2020", "Status": "CREDITADA", "Bank": "BANCO DO BRASIL"},
+        {"Year": "2021", "Status": "CREDITADA", "Bank": "BANCO DO BRASIL S.A"},
+        {"Year": "2022", "Status": "ENVIADA PARA CREDITO NO BANCO", "Bank": "BANCO DO BRASIL S.A"},
+        {"Year": "2023", "Status": "ENVIADA PARA CREDITO NO BANCO", "Bank": "BANCO DO BRASIL S.A."}
+      ]
+    },
+    "RelatedPeople": {
+      "TotalSpouses": 0,
+      "TotalRelatives": 1,
+      "PersonalRelationships": [
+        {"RelationshipType": "MOTHER", "RelatedEntityName": "MARGARET DAVIS LIMA"}
+      ]
+    },
+    "Processes": {
+      "TotalLawsuits": 30,
+      "LastLawsuitDate": "2024-10-25T00:00:00",
+      "TotalLawsuitsAsAuthor": 20,
+      "TotalLawsuitsAsDefendant": 11,
+      "Last365DaysLawsuits": 3
+    },
+    "BusinessRelationships": {
+      "TotalEmployments": 1
+    }
+  }]
+}

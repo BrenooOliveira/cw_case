@@ -1,0 +1,52 @@
+{
+  "Result": [{
+    "BasicData": {
+      "Age": 33,
+      "Name": "CARLOS MARTINEZ SANTOS",
+      "Gender": "M",
+      "TaxIdNumber": "23456789012",
+      "TaxIdStatus": "REGULAR",
+      "BirthCountry": "BRASILEIRA",
+      "MaritalStatusData": {},
+      "TaxIdFiscalRegion": "SP"
+    },
+    "KycData": {
+      "IsCurrentlyPEP": false,
+      "IsCurrentlySanctioned": false,
+      "Last365DaysSanctions": 0,
+      "Last90DaysSanctions": 1,
+      "Last180DaysSanctions": 1,
+      "LastYearPEPOccurence": 0,
+      "IsCurrentlyElectoralDonor": false,
+      "TotalElectoralDonations": 0
+    },
+    "FinancialData": {
+      "TotalAssets": "ABAIXO DE 100K",
+      "IncomeEstimates": {
+        "BIGDATA_V2": "5 A 7 SM"
+      },
+      "TaxReturns": [
+        {"Year": "2018", "Status": "SUA DECLARACAO NAO CONSTA NA BASE DE DADOS DA RECEITA FEDERAL"},
+        {"Year": "2019", "Status": "CREDITADA", "Bank": "ITAU UNIBANCO S.A."},
+        {"Year": "2020", "Status": "CREDITADA", "Bank": "ITAU UNIBANCO S.A."},
+        {"Year": "2021", "Status": "CREDITADA", "Bank": "ITAU UNIBANCO S.A."},
+        {"Year": "2022", "Status": "ENVIADA PARA CREDITO NO BANCO", "Bank": "ITAU UNIBANCO S.A."},
+        {"Year": "2023", "Status": "ENVIADA PARA CREDITO NO BANCO", "Bank": "ITAU UNIBANCO S.A."}
+      ]
+    },
+    "RelatedPeople": {
+      "TotalSpouses": 0,
+      "TotalRelatives": 2,
+      "PersonalRelationships": [
+        {"RelationshipType": "MOTHER", "RelatedEntityName": "ELENA MARTINEZ SANTOS"},
+        {"RelationshipType": "BROTHER", "RelatedEntityName": "DIEGO MARTINEZ SANTOS"}
+      ]
+    },
+    "Processes": {
+      "TotalLawsuits": 0
+    },
+    "BusinessRelationships": {
+      "TotalEmployments": 5
+    }
+  }]
+}
